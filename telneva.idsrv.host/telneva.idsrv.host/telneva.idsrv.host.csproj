@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Data\Domain\" />
+    <Folder Include="Data\Migrations\" />
+    <Folder Include="Endpoints\User\Get\" />
+    <Folder Include="Endpoints\User\List\" />
+    <Folder Include="Endpoints\User\Delete\" />
+    <Folder Include="Behaviors\" />
+    <Folder Include="Endpoints\User\Edit\" />
+    <Folder Include="Helpers\" />
+  </ItemGroup>
+
+</Project>
