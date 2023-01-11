@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace telneva.idsrv.api.host.Endpoints.Login
+namespace telneva.idsrv.host.Endpoints.Login
 {
     [Route("api/[controller]")]
     [ApiController]

@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace telneva.idsrv.api.host.Endpoints.User
+namespace telneva.idsrv.host.Endpoints.User
 {
     [ApiController]
     [Authorize]

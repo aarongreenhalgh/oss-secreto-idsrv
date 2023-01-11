@@ -8,16 +8,21 @@
 
   <ItemGroup>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+    <PackageReference Include="FluentValidation" Version="11.2.2" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.2.2" />
+    <PackageReference Include="MediatR" Version="10.0.1" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="10.0.1" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="Data\Domain\" />
     <Folder Include="Data\Migrations\" />
-    <Folder Include="Endpoints\User\Get\" />
-    <Folder Include="Endpoints\User\List\" />
-    <Folder Include="Endpoints\User\Delete\" />
+    <Folder Include="Endpoints\Profile\Get\" />
+    <Folder Include="Endpoints\Profile\List\" />
+    <Folder Include="Endpoints\Profile\Delete\" />
     <Folder Include="Behaviors\" />
-    <Folder Include="Endpoints\User\Edit\" />
+    <Folder Include="Endpoints\Profile\Edit\" />
+    <Folder Include="Endpoints\Profile\Add\" />
     <Folder Include="Helpers\" />
   </ItemGroup>
 

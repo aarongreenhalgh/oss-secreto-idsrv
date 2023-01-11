@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace telneva.idsrv.api.host.Endpoints.Scope
+namespace telneva.idsrv.host.Endpoints.Scope
 {
     [ApiController]
     [Route("api/[controller]")]

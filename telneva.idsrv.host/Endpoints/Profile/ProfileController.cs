@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace telneva.idsrv.api.host.Endpoints.User
+namespace telneva.idsrv.host.Endpoints.Profile
 {
     [ApiController]
     [Route("api/[controller]")]
@@ -9,7 +9,7 @@ namespace telneva.idsrv.api.host.Endpoints.User
     [ProducesResponseType(type: typeof(string), statusCode: StatusCodes.Status400BadRequest)]
     [ProducesResponseType(type: typeof(string), statusCode: StatusCodes.Status401Unauthorized)]
     [ProducesResponseType(type: typeof(string), statusCode: StatusCodes.Status429TooManyRequests)]
-    public class UserController : ControllerBase
+    public class ProfileController : ControllerBase
     {
         [HttpGet("{id}")]
         [ProducesResponseType(type: typeof(string), statusCode: StatusCodes.Status404NotFound)]
